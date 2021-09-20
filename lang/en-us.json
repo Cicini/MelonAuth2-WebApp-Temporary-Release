@@ -1,0 +1,67 @@
+{
+  "langua": {
+    "general": {
+      "unexpected_error": {
+        "title": "Unexpected Error",
+        "content": "Unexpected error occurred. Please check information in console and report to dev team."
+      }
+    },
+    "step_pin": {
+      "title": "Enter Verification Code",
+      "hint_how_to_get_code": {
+        "question": "How can I get a verification code?",
+        "answer": "Just join the server normally. If your account has not been verified you will receive a message with the code from the server."
+      },
+      "error_already_verified": {
+        "title": "Account Already Verified",
+        "content": "The associated account of this code is already verified."
+      },
+      "error_invalid_code": {
+        "title": "Invalid Code",
+        "content": "This code is invalid or expired. Please reconnect the server to retrieve new code."
+      }
+    },
+    "step_confirmation": {
+      "title": "Is This You?",
+      "confirm_button_label": "Yes, I am verifying this account",
+      "cancel_button_label": "No, I will re-type the code",
+      "hint_verification_will_change_skin": "Continuing verification will update your account skin as shown above. Normally it is identical with your current account skin."
+    },
+    "step_verification": {
+      "title": "Follow The Instructions",
+      "action_update_skin": {
+        "title": "Click the button below and update your account skin in the opened window",
+        "description": "You will be directed to the official Minecraft profile page (the domain should be `*.minecraft.net`). A skin file will be automatically selected, which contains some verification info we need. **DO NOT** modify it or select other file. Just click the **UPLOAD** button.",
+        "hint": "If you have trouble visiting the Minecraft official site, you can also update your account skin using the Minecraft Launcher with [this file]($1 download=$2)."
+      },
+      "open_button_label": "Update Skin",
+      "action_check_result": {
+        "title": "When successfully changed skin click the button below to complete verification",
+        "description": "Due to the Minecraft official limitation, you can only request for your verification no more than once per minute. Please wait patiently while the restriction."
+      },
+      "check_button_label": {
+        "normal": "Complete Verification",
+        "verifying": "Verifying..."
+      },
+      "hint_no_update_detected": {
+        "title": "No Skin Update Detected",
+        "content": "No updated skin has been detected by our server yet. Please try again later."
+      },
+      "hint_too_many_requests": {
+        "title": "Too Many Requests",
+        "content": "You can only send one request for verification per UUID per minute. Please try again later."
+      },
+      "reset_button_label": "Restart Verification"
+    },
+    "step_result": {
+      "title": "Your Account Has Been Successfully Verified",
+      "message": "You are now free to play in the server 😃",
+      "restart_button_label": "Verify Another Account"
+    },
+    "expiration_hint": {
+      "title": "Session Expired",
+      "description": "Please request for the code again",
+      "button_label": "Restart Verification"
+    }
+  }
+}

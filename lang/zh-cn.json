@@ -1,0 +1,70 @@
+{
+  "_options": {
+    "text_justify": true
+  },
+  "langua": {
+    "general": {
+      "unexpected_error": {
+        "title": "未预期错误",
+        "content": "发生了未逾期的错误。请查看控制台并反馈相关信息给开发人员。"
+      }
+    },
+    "step_pin": {
+      "title": "请输入验证码",
+      "hint_how_to_get_code": {
+        "question": "我在哪里可以获得验证码？",
+        "answer": "正常加入服务器即可。如果你的账号尚未通过验证，服务器会发送包含验证码的提示信息。"
+      },
+      "error_already_verified": {
+        "title": "账号已验证",
+        "content": "此验证码关联的账号已被验证。"
+      },
+      "error_invalid_code": {
+        "title": "无效验证码",
+        "content": "此验证码无效或已过期。请重新连接服务器获取新验证码。"
+      }
+    },
+    "step_confirmation": {
+      "title": "这是你吗？",
+      "confirm_button_label": "是，我要继续验证这个账号",
+      "cancel_button_label": "不是，我要重新输入验证码",
+      "hint_verification_will_change_skin": "继续验证会更新你的角色形象为上方预览的效果。通常这与你以前的形象完全相同。"
+    },
+    "step_verification": {
+      "title": "请根据下方指示进行操作",
+      "action_update_skin": {
+        "title": "点击下方按钮，在打开的页面中更新你的账号皮肤",
+        "description": "你会被引导到 Minecraft 官方的皮肤更新页面（域名应当是 `*.minecraft.net`）。有一个皮肤文件会被自动选择，它包含我们需要的验证信息。**不要**修改它或选择其他文件，直接点击**上传**按钮即可。",
+        "hint": "如果你无法正常访问 Minecraft 官方网站，你也可以通过 Minecraft 官方启动器更新你的角色皮肤。更新时请使用[这个文件]($1 download=$2)。"
+      },
+      "open_button_label": "更新账号皮肤",
+      "action_check_result": {
+        "title": "成功更新皮肤后，点击下方按钮完成账号验证",
+        "description": "由于 Minecraft 官方的限制，验证操作被限制为一分钟内不可多于一次。请勿频繁发起验证。"
+      },
+      "check_button_label": {
+        "normal": "完成验证",
+        "verifying": "验证中..."
+      },
+      "hint_no_update_detected": {
+        "title": "未检测到皮肤更新",
+        "content": "我们的服务器尚未检测到包含验证信息的皮肤文件。请稍后再试一次。"
+      },
+      "hint_too_many_requests": {
+        "title": "请求过多",
+        "content": "每分钟每 UUID 只可以请求一次验证。请稍后再试。"
+      },
+      "reset_button_label": "重新输入验证码"
+    },
+    "step_result": {
+      "title": "你的账号已被成功验证",
+      "message": "你现在可以在服务器正常游玩了😃",
+      "restart_button_label": "验证另一个账号"
+    },
+    "expiration_hint": {
+      "title": "验证码已过期",
+      "description": "请重新获取验证码",
+      "button_label": "重新输入验证码"
+    }
+  }
+}
