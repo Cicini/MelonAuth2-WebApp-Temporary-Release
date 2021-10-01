@@ -22,6 +22,8 @@ Example:
   "footer_content": "<a href='https://github.com/LanguaLab' target='_blank'>© LanguaLab</a>. All rights reserved."
 }
 ```
+## How to use
+zh-cn: https://cicini.moe/article/1/
 
 ## Official Public API
 | API URL | APP URL | secretKey | serverName |
