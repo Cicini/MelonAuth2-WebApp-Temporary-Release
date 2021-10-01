@@ -23,11 +23,17 @@ Example:
 }
 ```
 
-Public API:
+Public API(Official):
 | API URL | APP URL | secretKey | serverName |
 | ----------- | ----------- | ----------- | ----------- |
-| https://verify.nyaa.cf/api | https://verify.nyaa.cf/ | langualab_public | langualab |
+| https://verify.nyaa.cf/api/ | https://verify.nyaa.cf/ | langualab_public | langualab |
 
+Public API(Unofficial):
+
+These contents are provided by third parties, and we do not guarantee that they are safe, please use them as appropriate.
+| API URL | APP URL | secretKey | serverName |
+| ----------- | ----------- | ----------- | ----------- |
+| https://mauth.blingwang.cn/api/ | https://mauth.blingwang.cn/ | MelonAuth_Blw | MelonAuth_Blw |
 ------------------------------------
 
 如果你想在二级目录中使用此构建，请将js, css, fonts等资源文件放入根目录或手动修改路径即可正常读取.
