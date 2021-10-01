@@ -23,13 +23,12 @@ Example:
 }
 ```
 
-Public API(Official):
+## Official Public API
 | API URL | APP URL | secretKey | serverName |
 | ----------- | ----------- | ----------- | ----------- |
-| https://verify.nyaa.cf/api/ | https://verify.nyaa.cf/ | langualab_public | langualab |
+| https://verify.nyaa.cf/api | https://verify.nyaa.cf/ | langualab_public | langualab |
 
-Public API(Unofficial):
-
+## Unofficial Public API
 These contents are provided by third parties, and we do not guarantee that they are safe, please use them as appropriate.
 | API URL | APP URL | secretKey | serverName |
 | ----------- | ----------- | ----------- | ----------- |
