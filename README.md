@@ -23,19 +23,4 @@ Example:
 }
 ```
 ## How to use
-zh-cn: https://owo.cicini.moe/article/1/
-
-## Unofficial Public API
-These contents are provided by third parties, and we do not guarantee that they are safe, please use them as appropriate.
-| API URL | APP URL | secretKey | serverName | DATA FILE |
-| ----------- | ----------- | ----------- | ----------- | ----------- |
-| https://mauth.blingwang.cn/api/ | https://mauth.blingwang.cn/ | MelonAuth_Blw | MelonAuth_Blw | Not yet provided |
-------------------------------------
-
-如果你想在二级目录中使用此构建，请将js, css, fonts等资源文件放入根目录或手动修改路径即可正常读取.
-
-若想直接构建二级目录版WebApp
-
-构建方法见
-
-https://cicini.moe/article/1/
+zh-cn: https://web.archive.org/web/20220928031823/https://cicini.moe/article/1/
